@@ -1,31 +1,37 @@
-  # MERN E-Commerce
+# MERN E-Commerce
 
 A full-stack e-commerce web application built using the MERN stack.
 
 ## Features
 
 - Responsive home page
-- Product listing and product details
-- Product search and category filtering
+- Product listing
+- Product details
+- Product search
+- Category filtering
+- Price sorting
 - Shopping cart
-- Quantity management
-- User Sign Up and Login
+- Add, remove and update cart items
+- User Sign Up
+- User Login
 - JWT authentication
 - Checkout
 - Order placement
-- My Orders page
-- MongoDB database for products, users and orders
+- My Orders
+- MongoDB database
 - Responsive design for desktop and mobile
 
 ## Tech Stack
 
 ### Frontend
+
 - React
 - Vite
 - React Router
 - CSS
 
 ### Backend
+
 - Node.js
 - Express.js
 - MongoDB
@@ -37,5 +43,21 @@ A full-stack e-commerce web application built using the MERN stack.
 
 ```text
 MERN-Ecommerce/
+│
 ├── frontend/
-└── backend/
+│   ├── public/
+│   └── src/
+│       ├── pages/
+│       ├── App.jsx
+│       ├── App.css
+│       └── main.jsx
+│
+├── backend/
+│   ├── models/
+│   │   ├── Product.js
+│   │   ├── User.js
+│   │   └── Order.js
+│   ├── index.js
+│   └── seedProducts.js
+│
+└── README.md
