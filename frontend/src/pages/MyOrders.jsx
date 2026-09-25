@@ -13,7 +13,7 @@ function MyOrders() {
       return;
     }
 
-    fetch(`http://localhost:5000/api/orders?email=${user.email}`)
+    fetch(`https://mern-ecommerce-5nju.vercel.appapi/orders?email=${user.email}`)
       .then((response) => response.json())
       .then((data) => {
         setOrders(data);
