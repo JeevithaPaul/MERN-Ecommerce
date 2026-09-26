@@ -29,7 +29,7 @@ function Checkout({ cart, setCart }) {
 
     try {
       const response = await fetch(
-        "https://mern-ecommerce-5nju.vercel.appapi/orders",
+        "https://mern-ecommerce-5nju.vercel.app/api/orders",
         {
           method: "POST",
           headers: {

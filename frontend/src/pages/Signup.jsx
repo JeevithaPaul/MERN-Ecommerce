@@ -14,7 +14,7 @@ function Signup() {
 
     try {
       const response = await fetch(
-        "https://mern-ecommerce-5nju.vercel.appapi/auth/signup",
+        "https://mern-ecommerce-5nju.vercel.app/api/auth/signup",
         {
           method: "POST",
           headers: {

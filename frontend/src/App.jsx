@@ -42,7 +42,7 @@ function AppContent() {
 
   // Fetch products
   useEffect(() => {
-    fetch("https://mern-ecommerce-5nju.vercel.appapi/products")
+    fetch("https://mern-ecommerce-5nju.vercel.app/api/products")
       .then((response) => response.json())
       .then((data) => {
         setProducts(data);

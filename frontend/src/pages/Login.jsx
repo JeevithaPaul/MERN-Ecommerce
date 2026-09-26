@@ -13,7 +13,7 @@ function Login({ setIsLoggedIn }) {
 
     try {
       const response = await fetch(
-        "https://mern-ecommerce-5nju.vercel.appapi/auth/login",
+        "https://mern-ecommerce-5nju.vercel.app/api/auth/login",
         {
           method: "POST",
           headers: {
